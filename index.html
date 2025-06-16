@@ -17,7 +17,15 @@
   <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
     
     <a-marker preset="hiro">
-      
+      <!-- BACKSOUND -->
+      <a-sound 
+        src="url(pokemon.mp3)"
+        autoplay="true" 
+        loop="true" 
+        position="0 0 0"
+        volume="50">
+      </a-sound>
+      <!-- Pikachu -->
       <a-entity 
         gltf-model="pikachu-navidad-pokemon/source/PikachuAnimadoNavidad2.glb"
         position="0 0 0"
